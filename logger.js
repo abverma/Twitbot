@@ -33,3 +33,5 @@ var log = (tweet, retweetData, retweetErr) => {
 module.exports = {
 	log: log
 };
+
+console.log('logger loaded...');

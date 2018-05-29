@@ -22,3 +22,5 @@ let send = (msg) => {
 module.exports = {
 	send: send
 };
+
+console.log('mailer loaded...');

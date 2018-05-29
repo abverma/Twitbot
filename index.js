@@ -27,3 +27,4 @@ stream.on('tweet', (tweet) => {
 	}
 	
 });
+console.log('Listening for tweets...');
