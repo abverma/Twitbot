@@ -1,6 +1,7 @@
 var Twit = require('twit');
 var twitterConfig = require('./config').twitter_config;
 var logger = require('./logger');
+var http = require('http');
 
 var accountsToFollow = ['780402811792072705','717020664587227136'];
 
@@ -27,4 +28,8 @@ stream.on('tweet', (tweet) => {
 	}
 	
 });
+
+http.createServer((req, res) => {
+	console.log('request....');
+}).listen(process.env.PORT);
 console.log('Listening for tweets...');
