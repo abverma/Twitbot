@@ -20,5 +20,9 @@
   "dependencies": {
     "nodemailer": "^4.6.5",
     "twit": "^2.2.9"
-  }
+  },
+  "engines": {
+    "node": ">=0.10.22",
+    "npm": ">=1.3.14"
+  },
 }
